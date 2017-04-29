@@ -1,5 +1,9 @@
 # Created by https://www.gitignore.io/api/git,macos,python,pycharm,virtualenv
 
+### Project Custom ###
+*.review.py
+nltk_env
+
 ### Git ###
 *.orig
 
@@ -10,7 +14,6 @@
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
@@ -53,6 +56,9 @@ Temporary Items
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
+
+# CMake
+cmake-build-debug/
 
 # Mongo Explorer plugin:
 .idea/**/mongoSettings.xml
@@ -177,16 +183,19 @@ celerybeat-schedule
 .env
 
 # virtualenv
-nltk_env
 .venv
 venv/
 ENV/
 
 # Spyder project settings
 .spyderproject
+.spyproject
 
 # Rope project settings
 .ropeproject
+
+# mkdocs documentation
+/site
 
 ### VirtualEnv ###
 # Virtualenv
