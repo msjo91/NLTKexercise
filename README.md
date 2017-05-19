@@ -1,12 +1,14 @@
 # NLTKexercise
 
-Solving NLTK Book Edition 1 Exercises
+Solving NLTK Book Exercises
 
 ### NLTK Book homepage
-Python2 Version : http://www.nltk.org/book\_1ed/
+Python2 Version : http://www.nltk.org/book\_1ed/  
+Python3 Version : http://www.nltk.org/book/
 
 ## Python Version
-2.7.13
+CH1-4 : 2.7.13  
+CH5-12 : 3.6.1
 
 ## Packages
 Listed in requirements.txt
@@ -14,7 +16,7 @@ Listed in requirements.txt
 ### Using matplotlib in pyenv environment
 Open shell
 
-    import matplot
+    import matplotlib
     print matplotlib.matplotlib_fname()
     exit()
 
@@ -22,8 +24,6 @@ vi path/to/matplotlibrc
 
     backend      : macosx
 
-Change macosx to:
+Replace macosx:
 
     backend      : Tkagg
-
-
